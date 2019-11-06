@@ -16,7 +16,7 @@ hist_lowest_price = current_price
 
 # app properties
 app_name = "Amazon Price Tracker"
-icon = 'Amazon Price Tracker\icon.ico'
+icon = 'Amazon-Price-Tracker\icon.ico'
 
 def check_price(hist_lowest_price, current_price):
     page = requests.get(product_URL, headers=header_agent) # go to URL
